@@ -13,7 +13,7 @@ class Root extends HTMLElement {
     render() {
         if (!this.shadowRoot) return;
 
-        this.shadowRoot.innerHTML = `app`;
+        this.shadowRoot.innerHTML = `hola`;
     }
 }
 
